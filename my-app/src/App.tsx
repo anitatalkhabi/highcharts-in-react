@@ -7,7 +7,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="NewPage" Component={NewPage}/>
+        <Route path="/" Component={NewPage}/>
       </Routes>
     </Router>
   );
